@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import seedFoods from '../data/foods';
+import seedFoods from '../data/Food';
 
 const FOODS_KEY = 'cfe_foods_v1';
 const FAVS_KEY = 'cfe_favorites_v1';

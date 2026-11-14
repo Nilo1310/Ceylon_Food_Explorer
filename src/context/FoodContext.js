@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState, useCallback } from 'react';
 import { loadFoods, saveFoods, loadFavorites, saveFavorites, resetAll } from '../storage/storage';
-import seedFoods from '../data/foods';
+import seedFoods from '../data/Food';
 
 const FoodContext = createContext(null);
 
