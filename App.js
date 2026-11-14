@@ -11,10 +11,10 @@ import { FoodProvider, useFoods } from './src/context/FoodContext';
 import { colors } from './src/theme';
 import HomeScreen from './src/screens/HomeScreen';
 import ExploreScreen from './src/screens/ExploreScreen';
-import RegionsScreen from './src/screens/RegionsScreen';
-import FavoritesScreen from './src/screens/FavoritesScreen';
+import RegionsScreen from './src/screens/RegionScreen';
+import FavoritesScreen from './src/screens/FavouriteScreen';
+import FoodDetailScreen from './src/screens/FoodDetailsScreen';
 import AboutScreen from './src/screens/AboutScreen';
-import FoodDetailScreen from './src/screens/FoodDetailScreen';
 import AddDishScreen from './src/screens/AddDishScreen';
 
 const Tab = createBottomTabNavigator();
